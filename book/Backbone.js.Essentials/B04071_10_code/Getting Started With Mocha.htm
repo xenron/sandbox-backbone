@@ -1,0 +1,28 @@
+<html>
+<head>
+<!-- External Library Files -->
+<script src="/underscore.js"></script>
+<script src="/jQuery.js"></script>
+<script src="/Backbone.js"></script>
+
+<!-- Application-Specific Files -->
+<script src="/SomeModel.js"></script>
+<script src="/SomeView.js"></script>
+<script src="/SomeOtherNonBackboneCode.js"></script>
+
+<!-- Test Library Files -->
+<script src="/mocha.js"></script>
+<link rel="stylesheet" type="text/css" href="/mocha.css"></link>
+<script src="/expect.js"></script>
+
+</head>
+<body>
+<div id="mocha"></div>
+<!-- Test Code -->
+<script>
+mocha.setup('bdd'); // start Mocha in BDD mode
+// *INSERT TESTS HERE*
+mocha.run();
+</script>
+</body>
+</html>

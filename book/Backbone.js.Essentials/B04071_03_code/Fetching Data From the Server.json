@@ -1,0 +1,7 @@
+{
+    book: {
+        pages: 300,
+        name: 'The Hobbit'
+    },
+    otherInfo: 'stuff we don't care about'
+}

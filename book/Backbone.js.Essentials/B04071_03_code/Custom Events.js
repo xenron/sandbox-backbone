@@ -1,0 +1,1 @@
+someModel.trigger('fakeEvent', 5);

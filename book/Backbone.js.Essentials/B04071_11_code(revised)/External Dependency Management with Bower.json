@@ -1,0 +1,14 @@
+{
+    "name": "your-project",
+    "version": "0.0.1",
+    "ignore": [
+        "**/*.txt"
+    ],
+    "dependencies": {
+        "backbone": "1.0.0",
+        "jquery": "~2.0.0"
+    },
+     "devDependencies": {
+        "mocha": "^1.17.1"
+    }
+}
