@@ -1,0 +1,10 @@
+# node npm
+node_modules
+
+# bower
+bower_components
+
+# pycharm
+.idea/
+
+.DS_Store
